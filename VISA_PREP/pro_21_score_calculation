@@ -1,0 +1,6 @@
+z=int(input())
+for _ in range(z):
+    x,n=map(int,input().split())
+    pc=x//10
+    f=pc*n
+    print(f)
